@@ -1,0 +1,22 @@
+{
+    "name": "guave/installer-bundle",
+    "description": "",
+		"type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodrigo Stadler",
+            "email": "rodrigo.stadler@guavestudios.com",
+            "homepage": "https://github.com/guavestudios"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Guave\\InstallerBundle\\": "src/"
+        }
+    }
+}
