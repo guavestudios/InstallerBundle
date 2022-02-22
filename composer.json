@@ -1,23 +1,23 @@
 {
-  "name": "guave/installer-bundle",
-  "description": "",
-  "type": "library",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Rodrigo Stadler",
-      "email": "rodrigo.stadler@guavestudios.com",
-      "homepage": "https://github.com/guavestudios"
-    }
-  ],
-  "autoload": {
-    "psr-4": {
-      "Guave\\InstallerBundle\\": "src/"
-    }
-  },
-  "minimum-stability": "stable",
-  "bin": [
-    "bin/project-dirs",
-    "bin/project-files"
-  ]
+	"name": "guave/installer-bundle",
+	"description": "Installer Scripts for Contao 4.9+",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Christopher Stadler",
+			"email": "christopher.stadler@guavestudios.com",
+			"homepage": "https://github.com/guavestudios"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Guave\\InstallerBundle\\": "src/"
+		}
+	},
+	"bin": [
+		"bin/project-dirs",
+		"bin/project-files"
+	],
+	"minimum-stability": "stable"
 }
