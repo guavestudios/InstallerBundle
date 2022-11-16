@@ -10,6 +10,13 @@
 			"homepage": "https://github.com/guavestudios"
 		}
 	],
+	"require": {
+		"php": "^7.4 || ^8.0",
+		"contao/core-bundle": "^4.9"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-latest"
+	},
 	"autoload": {
 		"psr-4": {
 			"Guave\\InstallerBundle\\": "src/"
@@ -19,5 +26,9 @@
 		"bin/project-dirs",
 		"bin/project-files"
 	],
-	"minimum-stability": "stable"
+	"minimum-stability": "stable",
+	"support": {
+		"issues": "https://github.com/guavestudios/InstallerBundle/issues",
+		"source": "https://github.com/guavestudios/InstallerBundle"
+	}
 }
