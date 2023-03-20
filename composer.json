@@ -2,7 +2,7 @@
 	"name": "guave/installer-bundle",
 	"description": "Installer Scripts for Contao 4.9+",
 	"type": "library",
-	"license": "MIT",
+	"license": "ISC",
 	"authors": [
 		{
 			"name": "Christopher Stadler",
