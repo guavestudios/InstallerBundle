@@ -1,6 +1,6 @@
 {
 	"name": "guave/installer-bundle",
-	"description": "Installer Scripts for Contao 4.9+",
+	"description": "Installer Automation for Contao 4.13+",
 	"type": "library",
 	"license": "ISC",
 	"authors": [
@@ -12,7 +12,7 @@
 	],
 	"require": {
 		"php": "^7.4 || ^8.0",
-		"contao/core-bundle": "^4.9"
+		"contao/core-bundle": "^4.13"
 	},
 	"require-dev": {
 		"roave/security-advisories": "dev-latest"
@@ -22,11 +22,6 @@
 			"Guave\\InstallerBundle\\": "src/"
 		}
 	},
-	"bin": [
-		"bin/project-dirs",
-		"bin/project-files"
-	],
-	"minimum-stability": "stable",
 	"support": {
 		"issues": "https://github.com/guavestudios/InstallerBundle/issues",
 		"source": "https://github.com/guavestudios/InstallerBundle"
