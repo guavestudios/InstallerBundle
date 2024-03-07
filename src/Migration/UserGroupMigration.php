@@ -2,11 +2,11 @@
 
 namespace Guave\InstallerBundle\Migration;
 
-use Guave\InstallerBundle\Migration\Module\UserAdminModule;
 use Contao\CoreBundle\Migration\AbstractMigration;
 use Contao\CoreBundle\Migration\MigrationResult;
 use Doctrine\DBAL\Connection;
 use Doctrine\DBAL\Exception;
+use Guave\InstallerBundle\Migration\Module\UserAdminModule;
 
 class UserGroupMigration extends AbstractMigration
 {

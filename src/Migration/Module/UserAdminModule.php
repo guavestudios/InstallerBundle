@@ -3,7 +3,6 @@
 namespace Guave\InstallerBundle\Migration\Module;
 
 use Contao\FilesModel;
-use Contao\System;
 use Doctrine\DBAL\Connection;
 use Doctrine\DBAL\Exception;
 
